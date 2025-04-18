@@ -21,5 +21,8 @@ public class Circle{
 
         //Display of results
         System.out.println("The circumference of your circle is " + circumference + " and its area is " + area);
+    
+        //Closing the scanner
+        sc.close();
     }
 }
